@@ -40,11 +40,11 @@ public class KafkaConsumerConfig {
         // Configuration SASL_PLAINTEXT
 
 
-/*// Configuration SASL SCRAM-SHA-512
+// Configuration SASL SCRAM-SHA-512
         props.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, "SASL_PLAINTEXT");
         props.put(SaslConfigs.SASL_MECHANISM, "SCRAM-SHA-512");
         props.put(SaslConfigs.SASL_JAAS_CONFIG,
-                "org.apache.kafka.common.security.scram.ScramLoginModule required username='" + username + "' password='" + password + "';");*/
+                "org.apache.kafka.common.security.scram.ScramLoginModule required username='" + username + "' password='" + password + "';");
 
 
         return props;
